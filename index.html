@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBS Scene Switcher</title>
+</head>
+<body>
+  <h1>OBS Scene Switcher</h1>
+  <label for="sceneName">Scene Name:</label>
+  <input type="text" id="sceneName" placeholder="Enter Scene Name">
+  <button id="switchScene">Switch Scene</button>
+  <p id="status"></p>
+  <h1>OBSシーン一覧</h1>
+  
+  <!-- <button onclick="connectToOBS()">OBSに接続</button> -->
+
+  <h2>現在のシーン:</h2>
+  <p id="currentSceneName">読み込み中...</p>
+
+  <h2>シーン一覧:</h2>
+  <ul id="sceneList">
+    <!-- シーン名がここにリストとして表示される -->
+  </ul>
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>
